@@ -3,7 +3,7 @@ class Rope {
         var rope_options ={
             bodyA: body1,
             bodyB : body2,
-            length:10,
+            length:200,
             stiffness: 0.01
         }
         this.rope = Constraint.create(rope_options);
