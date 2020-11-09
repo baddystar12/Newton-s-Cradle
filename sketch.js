@@ -20,7 +20,11 @@ function setup() {
 	bob3 = new Bob(720, 300, 30);
 	bob4 = new Bob(780, 300, 30);
 	bob5 = new Bob(840, 300, 30);
-	//rope1 = new Rope(rope1.body, bob1.body);
+	rope1 = new Rope(roof1.body, bob1.body);
+	rope2 = new Rope(roof1.body, bob2.body);
+	rope3 = new Rope(roof1.body, bob3.body);
+	rope4 = new Rope(roof1.body, bob4.body);
+	rope5 = new Rope(roof1.body, bob5.body);
 	
 	Engine.run(engine);
   
@@ -39,8 +43,11 @@ function draw() {
   bob4.display();
   bob5.display();
   rope1.display();
+  rope2.display();
+  rope3.display();
+  rope4.display();
+  rope5.display();
   
   drawSprites();
  
 }
-
