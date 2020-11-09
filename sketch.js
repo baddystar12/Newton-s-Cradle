@@ -20,6 +20,7 @@ function setup() {
 	bob3 = new Bob(720, 300, 30);
 	bob4 = new Bob(780, 300, 30);
 	bob5 = new Bob(840, 300, 30);
+	//rope1 = new Rope(rope1.body, bob1.body);
 	
 	Engine.run(engine);
   
@@ -42,6 +43,4 @@ function draw() {
   drawSprites();
  
 }
-
-
 
