@@ -2,8 +2,8 @@ class Bob {
     constructor(x, y, radius){
         var bob_options = {
             friction : 0.5,
-            density : 1.2,
-            restitution: 0.8
+            density : 2,
+            restitution: 1
         }
         this.radius = radius;
         this.body = Matter.Bodies.circle(x,y,this.radius/2, bob_options);
